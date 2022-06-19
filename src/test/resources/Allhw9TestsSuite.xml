@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Rest Assured Test Suite">
+    <test name="All">
+        <classes>
+            <class name="com.epam.tc.hw9.BoardTests"/>
+            <class name="com.epam.tc.hw9.ListTests"/>
+            <class name="com.epam.tc.hw9.CardTests"/>
+        </classes>
+    </test>
+</suite>
